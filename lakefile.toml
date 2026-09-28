@@ -1,0 +1,12 @@
+name = ""
+defaultTargets = []
+
+[[require]]
+name = "plausible"
+git = "https://github.com/leanprover-community/plausible"
+rev = "main"
+
+[[lean_lib]]
+name = ""
+### List of file names that you want to use Plausible on.
+roots = ["mylibrary1", "GradingHacks", "DefaultScoring"]
